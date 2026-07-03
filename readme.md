@@ -4,6 +4,8 @@ This repository contains my solution to the Telgea white-label assignment: enabl
 
 **[Loom walkthrough](https://www.loom.com/share/bb881074407b4d849507d6b3c06425b8)**
 
+**[PoC Web App](https://telgea-assignment.vercel.app/)**
+
 ## Contents
 
 - [/app](/app) includes the PoC code. React app created with Claude Code (Opus 4.8).
@@ -14,6 +16,8 @@ This repository contains my solution to the Telgea white-label assignment: enabl
 ## Exploring the PoC
 
 The PoC is a front-end prototype. Everything on the backend (provisioning, payments, eSIM install, network) is mocked deterministically in the browser, so there is nothing to configure.
+
+Link to PoC: https://telgea-assignment.vercel.app/
 
 The screen is split into three panes, which is the core idea of the demo:
 
