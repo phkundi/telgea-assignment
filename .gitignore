@@ -1,2 +1,7 @@
 node_modules/
 .vite/
+
+# Local env / secrets (keep .env.example tracked)
+.env
+.env.local
+.env.*.local

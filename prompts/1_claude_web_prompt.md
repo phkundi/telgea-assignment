@@ -4,7 +4,7 @@ Help me think through an assignment for a company called Telgea.
 
 ## Context
 
-Telgea makes international mobile connectivity work like a single network. We provide mobile plans to enterprises across many countries through one platform, backed by carriers like Telenor, Vodafone, and Swisscom.
+Telgea makes international mobile connectivity work like a single network. They provide mobile plans to enterprises across many countries through one platform, backed by carriers like Telenor, Vodafone, and Swisscom.
 
 Today the customers are enterprises. They now want to enable brands and member clubs to sell mobile plans to their own fans and users, under their own name and brand.
 Example: FC Barcelona offers an "FC Barcelona" mobile plan. Registered fans discover, buy, and manage that plan directly inside the official FC Barcelona app. Telgea powers the connectivity and operations behind the scenes; the fan only ever sees the Barcelona brand.
@@ -52,8 +52,11 @@ Buying plan:
 8. User goes back to web page to confirm installation
 
 Managing plan:
-1a. User opens partner app / website and clicks on "manage mobile plan" button
-1b. User goes directly to branded but Telgea-owned web page 2. User authenticates via OTP received via SMS 3. User can recharge plan credit (if applicable), view usage, change or cancel plan
+
+- 1a. User opens partner app / website and clicks on "manage mobile plan" button
+- 1b. User goes directly to branded but Telgea-owned web page
+- 2. User authenticates via OTP received via SMS
+- 3. User can recharge plan credit (if applicable), view usage, change or cancel plan
 
 By following this approach, all of the business logic stays on Telgeas side - since they already sell mobile plans to enterprises, the infrastructure for assigning numbers, providing eSims & network access, etc. already exists. The partner only needs to build the marketing page for the offering within their app, and redirect users to Telgea.
 
