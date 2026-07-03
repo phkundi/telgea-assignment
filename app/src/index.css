@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/*
+ * Brand + console theme tokens.
+ * The partner (Column A/B) wears blaugrana; the console (Column C) is a dark
+ * neutral "engineering" surface so the white-label contrast is obvious.
+ */
+@theme {
+  /* FC Barcelona — blaugrana */
+  --color-brand-blue: #004d98;
+  --color-brand-blue-dark: #003d7a;
+  --color-brand-garnet: #a50044;
+  --color-brand-gold: #edbb00;
+
+  /* Console (behind-the-scenes) surface */
+  --color-console-bg: #0f172a;
+  --color-console-line: #1e293b;
+  --color-console-text: #cbd5e1;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+}
